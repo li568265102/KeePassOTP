@@ -278,6 +278,41 @@ OTP列将显示是否支持 2FA，但尚未配置。
   </item>
   <item>
     <key>Issuer</key>
-    <value>Issuer</value>
+    <value>发行人</value>
+  </item>
+  <item>
+    <key>CheckingTFA</key>
+    <value>检查 2FA</value>
+  </item>
+  <item>
+    <key>ReadScreenForQRCode</key>
+    <value>从屏幕读取 OTP 二维码</value>
+  </item>
+  <item>
+    <key>ReadScreenForQRCodeExplain</key>
+    <value>KeePassOTP 现在将尝试从您的屏幕上查找和读取 OTP 二维码.
+KeePass 将在最多 {0} 秒内进入后台，以简化读取 OTP 二维码的过程.
+
+此消息将不会再次显示.</value>
+  </item>
+  <item>
+    <key>OTP_Setup_DragDrop</key>
+    <value>拖放; 删除有效的 OTP 二维码</value>
+  </item>
+  <item>
+    <key>OTPRenewal</key>
+    <value>更新复制的 OTP</value>
+  </item>
+  <item>
+    <key>OTPRenewal_Inactive</key>
+    <value>从不</value>
+  </item>
+  <item>
+    <key>OTPRenewal_RespectClipboardTimeout</key>
+    <value>保持更新,直到剪贴板被清除</value>
+  </item>
+  <item>
+    <key>OTPRenewal_PreventShortDuration</key>
+    <value>如果即将到期，再更新一次</value>
   </item>
 </Translation>
